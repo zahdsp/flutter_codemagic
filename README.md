@@ -1,29 +1,38 @@
-# flutter_codemagic
+# Adab Social Media App
 
-A new Flutter project.
+This project is a [Flutter](https://flutter.dev) application.
 
-## Getting Started
+## Documentation
 
-This project is a starting point for a Flutter application.
+- [Flutter online documentation](https://flutter.dev/docs)
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Java SE Development Kit 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+- [Android Studio](https://developer.android.com/studio)
+- [Xcode](https://developer.apple.com/download/more/) for Mac.
+- [VScode IDE](https://code.visualstudio.com/) this project was already set up for VScode IDE.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Follow the [documentation](https://flutter.dev/docs/get-started/install) for flutter installation.
 
-### Body dan Model
+## Installation
+
+1. Clone this repository.<br/>
+2. Run flutter get packages.<br/>
 
 ```shell
- Entity hanya digunakan untuk model atau response json
+ flutter pub get
 ```
 
+## Run Project
+
+1. Connect device or use emulator/simulator.
+2. Press F5 or select run menu in VScode.
+
+### Development note
+
+This project was built using TDD Architecture:
+
+> ###credit : Reso Coder
 > ###Schema
 > ![clean architecture](https://i0.wp.com/resocoder.com/wp-content/uploads/2019/08/Clean-Architecture-Flutter-Diagram.png?w=556&ssl=1)
-
-```shell
-Setting up a service locator is the easiest when going over the classes following the call flow.
-```
