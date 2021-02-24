@@ -14,3 +14,16 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+> ###Body dan Model
+
+```shell
+ Entity hanya digunakan untuk model atau response json
+```
+
+> ###Schema
+> ![clean architecture](https://i0.wp.com/resocoder.com/wp-content/uploads/2019/08/Clean-Architecture-Flutter-Diagram.png?w=556&ssl=1)
+
+```shell
+Setting up a service locator is the easiest when going over the classes following the call flow.
+```
